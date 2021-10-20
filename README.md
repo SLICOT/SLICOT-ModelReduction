@@ -27,7 +27,7 @@ The current release of `SLICOT-ModelReduction` is version 1.0, dated November 1,
 
 ## Requirements
 
-The codes have been tested with MATLAB 2015b through 2020b. To use the functions, the Control System Toolbox must be installed in MATLAB running under 64-bit Windows 7, 8, 8.1 or 10. Presently there is no support for Linux. 
+The codes have been tested with MATLAB 2015b through 2020b. To use the functions, the Control System Toolbox must be installed in MATLAB running under 64-bit Windows 7, 8, 8.1 or 10.  
 
 ## License
 
@@ -38,6 +38,6 @@ The codes have been tested with MATLAB 2015b through 2020b. To use the functions
 Please cite `SLICOT-ModelReduction` using at least one of the following references: 
 
 * A. Varga, Model reduction software in the SLICOT library, In _Applied and Computational Control, Signals, and Circuits, Ed. B. Datta, Vol. 2, pp. 239-282, Kluwer Academic Publishers, Boston, 2001._
-* P. Benner, D. Kressner, V. Sima, A., Die SLICOT-Toolboxen für Matlab - The SLICOT Toolboxes for Matlab (in German), _at – Automatisierungstechnik, 58 (2010)._
+* P. Benner, D. Kressner, V. Sima, and A. Varga, Die SLICOT-Toolboxen für Matlab - The SLICOT Toolboxes for Matlab (in German), _at – Automatisierungstechnik, 58 (2010)._
 
 
