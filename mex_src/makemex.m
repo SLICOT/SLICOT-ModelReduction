@@ -7,6 +7,7 @@ function makemex
 %
 flags = 'FFLAGS="$FFLAGS -fPIC -fno-omit-frame-pointer -fdefault-integer-8" -largeArrayDims';
 slmodred_mex_src = '';
+xerbla    = 'xerbla.f';
 libslicot = '../slicot.a';
 slmodred_mex = {
     'arebench.f', ...
@@ -20,6 +21,6 @@ slmodred_mex = {
 %
 for k = 1:length(slmodred_mex)
     file = slmodred_mex{k};
-    fprintf( 'mex %s %s%s.f %s %s -lmwlapack -lmwblas\n', flags, slmodred_mex_src, file, libslicot );
-    %eval( sprintf( 'mex %s %s%s.f %s %s -lmwlapack -lmwblas\n', flags, slmodred_mex_src, file, libslicot ) );
+    fprintf( 'mex %s %s%s %s %s -lmwlapack -lmwblas\n', flags, slmodred_mex_src, file, xerbla, libslicot );
+    eval( sprintf( 'mex %s %s%s %s %s -lmwlapack -lmwblas\n', flags, slmodred_mex_src, file, xerbla, libslicot ) );
 end
