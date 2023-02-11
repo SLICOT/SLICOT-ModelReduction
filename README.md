@@ -2,7 +2,7 @@
 
 ## About 
 
-The `SLICOT Model and Controller Reduction Toolbox` (`SLICOT-ModelReduction`) includes [SLICOT](http://slicot.org/)-based MATLAB and Fortran tools for computing reduced-order linear models and controllers. The toolbox employs theoretically sound and numerically reliable and efficient techniques, including Balance & Truncate, singular perturbation approximation, balanced stochastic truncation, frequency-weighting balancing, Hankel-norm approximation, coprime factorization, etc.
+The `SLICOT Model and Controller Reduction Toolbox` (`SLICOT-ModelReduction`) includes [SLICOT](https://github.com/SLICOT/SLICOT-Reference/)-based MATLAB and Fortran tools for computing reduced-order linear models and controllers. The toolbox employs theoretically sound and numerically reliable and efficient techniques, including Balance & Truncate, singular perturbation approximation, balanced stochastic truncation, frequency-weighting balancing, Hankel-norm approximation, coprime factorization, etc.
 
 The main functionalities of the toolbox include:
 
